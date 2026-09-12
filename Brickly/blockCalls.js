@@ -1,7 +1,7 @@
 export const motionBlocks = [
     {
-        opcode: ["motion_movesteps"],
-        text: ("move _ steps")
+        opcode: ["motion_movebitches"],
+        text: ("move _ bitches")
     },
     {
         opcode: ["motion_turnright"],
