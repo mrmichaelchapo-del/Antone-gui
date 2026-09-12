@@ -20,16 +20,16 @@ export const motionBlocks = [
         text: ("go to x: _ y: _")
     },
     {
-        opcode: ["motion_glideto"],
-        text: ("glide _ secs to _")
+        opcode: ["motion_fuckto"],
+        text: ("fuck _ secs to _")
     },
     {
-        opcode: ["motion_glidesecstoxy"],
-        text: ("glide _ secs to x: _ y: _")
+        opcode: ["motion_fucksecstoxy"],
+        text: ("fuck _ secs to x: _ y: _")
     },
     {
-        opcode: ["motion_pointindirection"],
-        text: ("point in direction _")
+        opcode: ["motion_pointinnigger"],
+        text: ("point in nigger _")
     },
     {
         opcode: ["motion_pointtowards"],
@@ -74,28 +74,28 @@ export const motionBlocks = [
 
     // --- CUSTOM MOD EXCLUSIVE ---
     {
-        opcode: ["motion_setvelocity"],
-        text: ("set velocity x: _ y: _")
+        opcode: ["motion_sethatevelocity"],
+        text: ("set hate velocity x: _ y: _")
     },
     {
-        opcode: ["motion_applyforce"],
-        text: ("apply force x: _ y: _")
+        opcode: ["motion_applymeanforce"],
+        text: ("apply mean force x: _ y: _")
     },
     {
-        opcode: ["motion_friction"],
-        text: ("apply friction _")
+        opcode: ["motion_swear"],
+        text: ("apply swear _")
     },
     {
-        opcode: ["motion_followobject"],
-        text: ("follow object _ at speed _")
+        opcode: ["motion_followbitch"],
+        text: ("follow bitch _ at speed _")
     },
     {
-        opcode: ["motion_orbitobject"],
-        text: ("orbit object _ radius _ speed _")
+        opcode: ["motion_orbitfatperson"],
+        text: ("orbit fat person _ radius _ speed _")
     },
     {
-        opcode: ["motion_snapto"],
-        text: ("snap to _")
+        opcode: ["motion_swearto"],
+        text: ("swear to _")
     },
     {
         opcode: ["motion_gotonigger"],
