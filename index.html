@@ -217,3 +217,49 @@
 <option value="mos">Mossi</option>
 <option value="mwl">
   </select>
+<script>
+  const translations = {
+    en: {
+      title: "Hello World!",
+      paragraph: "This is an example of a custom translate dropdown."
+    },
+    es: {
+      title: "¡Hola Mundo!",
+      paragraph: "Este es un ejemplo de un menú de traducción personalizado."
+    },
+    fr: {
+      title: "Bonjour le monde!",
+      paragraph: "Ceci est un exemple de menu de traduction personnalisé."
+    },
+    de: {
+      title: "Hallo Welt!",
+      paragraph: "Dies ist ein Beispiel für ein benutzerdefiniertes Übersetzungsmenü."
+    },
+    zh: {
+      title: "你好，世界！",
+      paragraph: "这是一个自定义翻译菜单的示例。"
+    },
+    ja: {
+      title: "こんにちは世界！",
+      paragraph: "これはカスタム翻訳メニューの例です。"
+    },
+    ko: {
+      title: "안녕 세상!",
+      paragraph: "이것은 사용자 정의 번역 메뉴의 예입니다."
+    }
+    // You can keep adding more here later
+  };
+
+  function translatePage(lang) {
+    const data = translations[lang] || translations["en"]; // fallback to English
+
+    document.getElementById("title").innerText = data.title;
+    document.getElementById("paragraph").innerText = data.paragraph;
+  }
+
+  // hook up the dropdown
+  document.getElementById("lang-select").addEventListener("change", function () {
+    translatePage(this.value);
+  });
+</script>
+<
